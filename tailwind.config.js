@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 module.exports = {
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
@@ -14,6 +14,31 @@ module.exports = {
             "white" : "#FFFFFF",
             "border" : "#C6C6C6",
             "borderLight" : "#ECEEEF"
+        },
+        screens: {
+            "full": {"max": "1580px"},
+            // => @media (max-width: 1580px) { ... }
+      
+            "desktop": {"max": "1440px"},
+            // => @media (max-width: 1440px) { ... }
+      
+            "laptop-lg": {"max": "1280px"},
+            // => @media (max-width: 1280px) { ... }
+      
+            "laptop": {"max": "1199px"},
+            // => @media (max-width: 1199px) { ... }
+      
+            "tablet-lg": {"max": "1024px"},
+            // => @media (max-width: 1024px) { ... }
+            
+            "tablet": {"max": "991px"},
+            // => @media (max-width: 991px) { ... }
+
+            "mobile-lg": {"max": "767px"},
+            // => @media (max-width: 767px) { ... }
+
+            "mobile": {"max": "479px"},
+            // => @media (max-width: 479px) { ... }
         },
         extend: {},
     },
