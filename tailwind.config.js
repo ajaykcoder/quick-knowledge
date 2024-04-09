@@ -5,40 +5,23 @@ module.exports = {
     ],
     theme: {
         colors: {
-            "primary" : "#0E172B",
-            "secondary" : "#39bdf9",
-            "red" : "#FF0000",
-            "black" : "#000000",
-            "lightBlack" : "#0E172A",
-            "text" : "#334155",
+            "green" : "#4EA818",
+            "darkGreen" : "#4B8F22",
             "white" : "#FFFFFF",
-            "border" : "#C6C6C6",
-            "borderLight" : "#ECEEEF"
+            "text" : "#475056",
+            "black" : "#212529",
+            "darkBlack" : "#000000",
+            "red" : "#B00020"
         },
         screens: {
             "full": {"max": "1580px"},
-            // => @media (max-width: 1580px) { ... }
-      
             "desktop": {"max": "1440px"},
-            // => @media (max-width: 1440px) { ... }
-      
             "laptop-lg": {"max": "1280px"},
-            // => @media (max-width: 1280px) { ... }
-      
             "laptop": {"max": "1199px"},
-            // => @media (max-width: 1199px) { ... }
-      
             "tablet-lg": {"max": "1024px"},
-            // => @media (max-width: 1024px) { ... }
-            
             "tablet": {"max": "991px"},
-            // => @media (max-width: 991px) { ... }
-
             "mobile-lg": {"max": "767px"},
-            // => @media (max-width: 767px) { ... }
-
             "mobile": {"max": "479px"},
-            // => @media (max-width: 479px) { ... }
         },
         extend: {},
     },
