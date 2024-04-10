@@ -23,7 +23,11 @@ module.exports = {
             "mobile-lg": {"max": "767px"},
             "mobile": {"max": "479px"},
         },
-        extend: {},
+        extend: {
+            fontFamily: {
+                Roboto: ["Roboto", "sans-serif"]
+            }
+        }
     },
     plugins: [],
 }
