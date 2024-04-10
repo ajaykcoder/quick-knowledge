@@ -6,8 +6,8 @@ const Frontend = (props) => {
     return (
         <div>
             <Header/>
-            {/* {props.children}
-            <Footer/> */}
+            {/* {props.children} */}
+            <Footer/>
         </div>
     );
 }

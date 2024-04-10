@@ -11,7 +11,8 @@ module.exports = {
             "text" : "#475056",
             "black" : "#212529",
             "darkBlack" : "#000000",
-            "red" : "#B00020"
+            "red" : "#B00020",
+            "transparent" : "#FFFFFF00"
         },
         screens: {
             "full": {"max": "1580px"},

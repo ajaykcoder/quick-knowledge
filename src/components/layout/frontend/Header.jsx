@@ -8,7 +8,7 @@ const Header = () => {
         setDarkmode(!darkMode)
     )
     return (
-        <div className="w-full bg-white pt-8 px-5 box-border">
+        <div className="w-full bg-white py-8 px-5 box-border">
             <div className="w-[1440px] max-w-full mx-auto box-border flex gap-x-4 items-center justify-between">
                 <div className="w-60">
                     <a href="/" className=" text-2xl text-green">Quick Knowledge</a>
