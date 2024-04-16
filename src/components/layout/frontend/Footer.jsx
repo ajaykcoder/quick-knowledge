@@ -29,7 +29,7 @@ const Footer = () => {
                                 <li><a href="/" className="text-sm text-white hover:text-green">Category 4</a></li>
                             </ul>
                         </div>
-                        <div className=" w-[380px]">
+                        <div className="w-[380px]">
                             <div className="text-white text-xl mb-3">Newsletter</div>
                             <div className="relative">
                                 <input type="text" className="border border-green bg-transparent h-14 w-full focus:outline-none outline-green pl-4 pr-[134px] text-white"/>
